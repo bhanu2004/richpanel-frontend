@@ -26,7 +26,7 @@ const [currUser,setCurrUser] = useState({});
 const handlePayment = ()=>{
   let data = {object:[currUser.email,pack]};
   console.log("buttn clicked");
-  axios.post('http://localhost:4000/addplan',{data}).then(res=>{
+  axios.post('richpanel-backend-79qm840fe-bhanu2004.vercel.app/addplan',{data}).then(res=>{
      
       console.log("plan updated");
 
