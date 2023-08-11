@@ -26,7 +26,7 @@ const SignUp = ()=>{
             console.log("fill all fields");
             return;
         }
-        axios.post('http://localhost:4000/signup',user).then(res=>{
+        axios.post('richpanel-backend-79qm840fe-bhanu2004.vercel.app/signup',user).then(res=>{
            
             setUser({
                 name:"",
