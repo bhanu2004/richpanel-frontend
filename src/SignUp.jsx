@@ -26,7 +26,7 @@ const SignUp = ()=>{
             console.log("fill all fields");
             return;
         }
-        axios.post('richpanel-backend-79qm840fe-bhanu2004.vercel.app/signup',user).then(res=>{
+        axios.post('https://richpanel-backend.vercel.app/signup',user).then(res=>{
            
             setUser({
                 name:"",
