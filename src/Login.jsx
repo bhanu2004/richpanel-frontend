@@ -15,7 +15,7 @@ const Login = ({setCurrUser,setPack})=>{
         if(!user.email || !user.password){
             alert('fill all fields');
         }
-        axios.post('http://localhost:4000/signin',user)
+        axios.post('richpanel-backend-79qm840fe-bhanu2004.vercel.app/signin',user)
         .then(res =>{
             // alert(res.data.message);
             console.log(res.data.user);
